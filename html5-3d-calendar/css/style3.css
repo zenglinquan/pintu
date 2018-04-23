@@ -1,0 +1,327 @@
+body {
+	background: #cc0019;
+	color: #fceeb8;
+	font-family: 'BioRhyme', serif;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover,
+a:focus {
+	color: #fceeb8;
+}
+
+.codrops-header {
+	background: none;
+}
+
+.codrops-header__tagline,
+.codrops-demos{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.codrops-demos a.current-demo {
+	color: #fceeb8;
+}
+
+.calendar {
+	-webkit-perspective: 2500px;
+	perspective: 2500px;
+}
+
+.cube__side,
+.no-js .cube {
+	border: 3px solid #fff;
+	outline: 1px solid #fff;
+	background: #f0f0f0 url(../img/c1.png) no-repeat center center;
+}
+
+.cube:not(.cubeInactive):nth-child(2n) .cube__side,
+.no-js .cube:not(.cubeInactive):nth-child(2n) {
+	background-image: url(../img/c2.png);
+}
+
+.cube:not(.cubeInactive):nth-child(3n) .cube__side,
+.no-js .cube:not(.cubeInactive):nth-child(3n) {
+	background-image: url(../img/c3.png);
+}
+
+.cube:not(.cubeInactive):nth-child(4n) .cube__side,
+.no-js .cube:not(.cubeInactive):nth-child(4n) {
+	background-image: url(../img/c4.png);
+}
+
+.cube:not(.cubeInactive):nth-child(5n) .cube__side,
+.no-js .cube:not(.cubeInactive):nth-child(5n) {
+	background-image: url(../img/c5.png);
+}
+
+.cubeInactive .cube__side,
+.no-js .cubeInactive {
+	background: #e6e6e6;
+}
+
+
+/* With JS we insert a number span into the cube */
+
+.cube__number,
+.no-js .cube::after {
+	font-weight: 700;
+	color: #cc0019;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	height: 1.5em;
+	line-height: 1.5;
+	bottom: auto;
+	margin: -0.75em 0 0;
+}
+
+.cubeInactive .cube__number,
+.no-js .cubeInactive::after {
+	color: #cac9c9;
+}
+
+.js .content__block {
+	width: 100%;
+	padding: 0 5vw 0 20vw;
+}
+
+.js .content__description {
+	padding: 0 0 0 4vw;
+}
+
+.content__number {
+	color: #000;
+	font-weight: bold;
+	line-height: 0.5;
+	letter-spacing: -0.175em;
+	font-size: 30vw;
+	left: -5vw;
+	bottom: 8vh;
+}
+
+.content__title {
+	font-size: 6vw;
+}
+
+.title {
+	color: #fceeb8;
+	right: auto;
+	left: 3vw;
+}
+
+@media screen and (max-width: 50.75em) {
+	.js .content__block {
+		padding: 4em 2em 0;
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.content__number {
+		bottom: 30vh;
+	}
+}
+
+#picbox1,#picbox2,#picbox3,#picbox4,#picbox5,#picbox6,#picbox7,#picbox8,#picbox9,#picbox10,
+#picbox11,#picbox12,#picbox13,#picbox14,#picbox15,#picbox16,#picbox17,#picbox18,#picbox19,#picbox20,
+#picbox21,#picbox22,#picbox23,#picbox24,#picbox25,#picbox26,#picbox27,#picbox28,#picbox29{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin: 10px auto;
+}
+#picbox1 {
+	background-image: url('../img/jpg/1.jpg');
+}
+#picbox2 {
+	background-image: url('../img/jpg/2.jpg');
+}
+#picbox3 {
+	background-image: url('../img/jpg/3.jpg');
+}
+#picbox4 {
+	background-image: url('../img/jpg/4.jpg');
+}
+#picbox5 {
+	background-image: url('../img/jpg/5.jpg');
+}
+#picbox6 {
+	background-image: url('../img/jpg/6.jpg');
+}
+#picbox7 {
+	background-image: url('../img/jpg/7.jpg');
+}
+#picbox8 {
+	background-image: url('../img/jpg/8.jpg');
+}
+#picbox9 {
+	background-image: url('../img/jpg/9.jpg');
+}
+#picbox10 {
+	background-image: url('../img/jpg/10.jpg');
+}
+#picbox11 {
+	background-image: url('../img/jpg/11.jpg');
+}
+#picbox12 {
+	background-image: url('../img/jpg/12.jpg');
+}
+#picbox13 {
+	background-image: url('../img/jpg/13.jpg');
+}
+#picbox14 {
+	background-image: url('../img/jpg/14.jpg');
+}
+#picbox15 {
+	background-image: url('../img/jpg/15.jpg');
+}
+#picbox16 {
+	background-image: url('../img/jpg/16.jpg');
+}
+#picbox17 {
+	background-image: url('../img/jpg/17.jpg');
+}
+#picbox18 {
+	background-image: url('../img/jpg/18.jpg');
+}
+#picbox19 {
+	background-image: url('../img/jpg/19.jpg');
+}
+#picbox20 {
+	background-image: url('../img/jpg/20.jpg');
+}
+#picbox21 {
+	background-image: url('../img/jpg/21.jpg');
+}
+#picbox22 {
+	background-image: url('../img/jpg/22.jpg');
+}
+#picbox23 {
+	background-image: url('../img/jpg/23.jpg');
+}
+#picbox24 {
+	background-image: url('../img/jpg/24.jpg');
+}
+#picbox25 {
+	background-image: url('../img/jpg/25.jpg');
+}
+#picbox26 {
+	background-image: url('../img/jpg/26.jpg');
+}
+#picbox27{
+	background-image: url('../img/jpg/27.jpg');
+}
+#picbox28{
+	background-image: url('../img/jpg/28.jpg');
+}
+#picbox29{
+	background-image: url('../img/jpg/29.jpg');
+}
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8,.pic9,.pic10,.pic11,.pic12,.pic13,.pic14,.pic15,
+.pic16,.pic17,.pic18,.pic19,.pic20,.pic21,.pic22,.pic23,.pic24,.pic25,.pic26,.pic27,.pic28,.pic29 {
+	width: 97px;
+	height: 97px;
+	float: left;	
+	position: absolute;
+	transition: all 0.5s ease 0s;
+}
+.pic1 {
+	background-image: url('../img/jpg/1.jpg');
+}
+.pic2 {
+	background-image: url('../img/jpg/2.jpg');
+}
+.pic3 {
+	background-image: url('../img/jpg/3.jpg');
+}
+.pic4 {
+	background-image: url('../img/jpg/4.jpg');
+}
+.pic5 {
+	background-image: url('../img/jpg/5.jpg');
+}
+.pic6 {
+	background-image: url('../img/jpg/6.jpg');
+}
+.pic7 {
+	background-image: url('../img/jpg/7.jpg');
+}
+.pic8 {
+	background-image: url('../img/jpg/8.jpg');
+}
+.pic9 {
+	background-image: url('../img/jpg/9.jpg');
+}
+.pic10 {
+	background-image: url('../img/jpg/10.jpg');
+}
+.pic11 {
+	background-image: url('../img/jpg/11.jpg');
+}
+.pic12 {
+	background-image: url('../img/jpg/12.jpg');
+}
+.pic13 {
+	background-image: url('../img/jpg/13.jpg');
+}
+.pic14 {
+	background-image: url('../img/jpg/14.jpg');
+}
+.pic15 {
+	background-image: url('../img/jpg/15.jpg');
+}
+.pic16 {
+	background-image: url('../img/jpg/16.jpg');
+}
+.pic17 {
+	background-image: url('../img/jpg/17.jpg');
+}
+.pic18 {
+	background-image: url('../img/jpg/18.jpg');
+}
+.pic19 {
+	background-image: url('../img/jpg/19.jpg');
+}
+.pic20 {
+	background-image: url('../img/jpg/20.jpg');
+}
+.pic21 {
+	background-image: url('../img/jpg/21.jpg');
+}
+.pic22 {
+	background-image: url('../img/jpg/22.jpg');
+}
+.pic23 {
+	background-image: url('../img/jpg/23.jpg');
+}
+.pic24 {
+	background-image: url('../img/jpg/24.jpg');
+}
+.pic25 {
+	background-image: url('../img/jpg/25.jpg');
+}
+.pic26 {
+	background-image: url('../img/jpg/26.jpg');
+}
+.pic27{
+	background-image: url('../img/jpg/27.jpg');
+}
+.pic28{
+	background-image: url('../img/jpg/28.jpg');
+}
+.pic29{
+	background-image: url('../img/jpg/29.jpg');
+}
+.timeText{
+	position: absolute;
+	color: #fff;
+	bottom: 15px;
+	font-size: 20px;	
+}
+.nextBtn{position: absolute;bottom: 40px;right: 20px;font-size: 14px;color: #FFFF00;display: none;border: none;outline: none;background: #FF5722;border-radius: 5px;padding: 0 5px;
+}
